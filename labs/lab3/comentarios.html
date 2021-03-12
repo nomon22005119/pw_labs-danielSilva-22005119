@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/x-icon" href="images/udon.ico"/>
+        <title>Seoul</title>
+    </head>
+    <body>
+        <body style="background-color:rgb(221, 153, 198)"></body>
+        <h1> LAB 2: Seoul, South Korea </h1>
+    <img src="images/seoul.jpg">
+    <br>
+    <a href="../index.html">Home</a><l> | </l>
+    <a href="local.html">Localização</a><l> | </l>
+    <a href="multimedia.html" >Multimédia</a><l> | </l>
+    <a href="info.html" >Informação</a><l> | </l>
+    <a href="quizz.html" >Quizz</a><l> | </l>
+    <a href="comentarios.html" >Comentários</a> 
+
+    <br><br><br>
+
+    <form method="POST" action="mailto:danieldacostasilva52@gmail.com">
+        <fieldset>
+            <legend><b>RATE US!</b></legend>
+            <label><b>Originalidade</b> - Classifique a originalidade da página!</label>
+            
+            <br>
+            <pre><label><b>Rating :</b></label>(Bad)<input type="radio" name="rate" value="1"> <input type="radio" name="rate" value="2"> <input type="radio" name="rate" value="3"> <input type="radio" name="rate" value="4"> <input type="radio" name="rate" value="5"> (Good)</pre>
+            <hr>
+            
+            <label><b>Erros</b> - Encontrou erros na página? (ortográficos ou informativos)</label>
+            <br>
+            <pre>No Errors  <input type="radio" name="rate" value="1"> ------------ <input type="radio" name="rate" value="2"> Found Error(s)!</pre>
+            <textarea name="error" rows="1" cols="80" placeholder="Se sim, insira qual o erro ortográfico ou informativo"></textarea>
+            <hr>
+
+            <label><b>Visualização</b> - Agradável aos olhos?</label>
+            <br>
+            <pre><label><b>Rating :</b></label>(Bad)<input type="radio" name="rate" value="1"> <input type="radio" name="rate" value="2"> <input type="radio" name="rate" value="3"> <input type="radio" name="rate" value="4"> <input type="radio" name="rate" value="5"> (Good)</pre>
+            <hr>
+
+            <label><b>Organização</b></label>
+            <br>
+            <pre><label><b>Rating :</b></label>(Bad)<input type="radio" name="rate" value="1"> <input type="radio" name="rate" value="2"> <input type="radio" name="rate" value="3"> <input type="radio" name="rate" value="4"> <input type="radio" name="rate" value="5"> (Good)</pre>
+            <hr>
+
+            <label><b>Informação</b> - Achou a página informativa ?</label>
+            <br>
+            <pre><label><b>Rating :</b></label>(Bad)<input type="radio" name="rate" value="1"> <input type="radio" name="rate" value="2"> <input type="radio" name="rate" value="3"> <input type="radio" name="rate" value="4"> <input type="radio" name="rate" value="5"> (Good)</pre>
+            <textarea name="info" rows="1" cols="80" placeholder="Diga-nos como podemos melhorar"></textarea>
+            <hr>
+
+            <label><b>Faciclidade de Navegação</b></label>
+            <br>
+            <pre><label><b>Rating :</b></label>(Bad)<input type="radio" name="rate" value="1"> <input type="radio" name="rate" value="2"> <input type="radio" name="rate" value="3"> <input type="radio" name="rate" value="4"> <input type="radio" name="rate" value="5"> (Good)</pre>
+            <hr>
+
+            <label><b>Clareza</b></label>
+            <br>
+            <pre><label><b>Rating :</b></label>(Bad)<input type="radio" name="rate" value="1"> <input type="radio" name="rate" value="2"> <input type="radio" name="rate" value="3"> <input type="radio" name="rate" value="4"> <input type="radio" name="rate" value="5"> (Good)</pre>
+            <hr>
+
+            <label><b>Amplitude</b></label>
+            <br>
+            <pre><label><b>Rating :</b></label>(Bad)<input type="radio" name="rate" value="1"> <input type="radio" name="rate" value="2"> <input type="radio" name="rate" value="3"> <input type="radio" name="rate" value="4"> <input type="radio" name="rate" value="5"> (Good)</pre>
+            <hr>
+
+            <label><b>Significância</b></label>
+            <br>
+            <pre><label><b>Rating :</b></label>(Bad)<input type="radio" name="rate" value="1"> <input type="radio" name="rate" value="2"> <input type="radio" name="rate" value="3"> <input type="radio" name="rate" value="4"> <input type="radio" name="rate" value="5"> (Good)</pre>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <label>Quanto apreciou este Website? </label>
+            <select name="WebsiteRate" size="1">
+                <option value="Péssimo">Péssimo!</option>
+                <option value="Mau">Mau</option>
+                <option value="Mediocre" selected>Mediocre</option>
+                <option value="Bom">Bom</option>
+                <option value="Excelente">Excelente!</option>
+            </select>
+        </fieldset>
+        <input type="hidden" name="hiddenComment" value="HTML NÃO É UMA LINGUAGEM DE PROGRAMAÇÃO, mas até tem graça">
+        <br><br>
+        <input type="image" src="images/sub.png" alt="submit">
+    </form>
+</body>
+</html>
